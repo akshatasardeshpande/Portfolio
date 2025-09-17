@@ -13,6 +13,11 @@
   --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
 }
 
+:root{ --h1:2.6rem; --h2:1.7rem; --lead:1.12rem; }
+.hero h1{font-size:var(--h1)}
+.section h2{font-size:var(--h2)}
+.lede{font-size:var(--lead)}
+
 *{box-sizing:border-box}
 html,body{height:100%}
 html{scroll-behavior:smooth}
